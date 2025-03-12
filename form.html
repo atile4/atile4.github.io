@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <a href="index.html">back</a>
+        <hr>
+
+        <!-- action attribute sends submissions to a file -->
+        <!-- method = "POST" sensitive data -->
+        <form action="">
+            <label for="username">username: </label>
+            <input type="text" id="username" placeholder="John" minlength="3" maxlength="15" required> <br>
+            
+            <label for="email">email: </label>
+            <input type="email" id="email" placeholder="atile4444@gmail.com"> <br>
+
+            <label for="password">password: </label>
+            <input type="password" id="password" maxlength="30"> <br>
+
+            <label for="phone">phone number: </label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[3]-[4]"> <br>
+            
+            <label for="bday">birthdate: </label>
+            <input type="date" id="bday"> <br>
+
+            <label for="quantity">quantity</label>
+            <input type="number" id="quantity" value="3"> <br>
+
+            <label for="title">gender: </label>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" value="Male" name="title">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" value="Female" name="title">
+            <label for="Wtf else">Wtf else</label>
+            <input type="radio" id="Wtf else" value="Wtf else" name="title">
+
+            <br>
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+
+    </body>
+
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Website Title</title>
+        <!--link specifies relationship between doc and external source-->
+        <link rel="icon" type="image/png" href="images/atile4444 derp head.png">
+    </head>
+
+    <body>
+        <h1>This is a heading (h1 heading)</h1>
+            <p>This is a paragraph. Underneath is a horizontal line</p>
+            <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+               target="_blank"
+               title="HTML & CSS Full Course for free 🌎 (2023)">
+                HTML & CSS Tutorial
+            </a> <br> <br>
+
+        <!-- Buttons -->
+        <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+            target="_blank">
+            <button style="font-size: 25px; 
+                    background-color: aquamarine; 
+                    color: darkcyan; 
+                    border-radius: 5px;"> 
+                    hello guys 
+            </button>
+        </a> <br> <br>
+
+        <button onclick="doSomething()" id="button2" style="font-size: 15px;"> 
+            click me :)
+        </button> <hr>
+
+        <script>
+            function doSomething() {
+                document.getElementById("button2").innerHTML = "nope";    
+            }
+        </script>
+
+        <h2>This is another heading</h2>
+            <p>Underneath is a line break</p>
+        <br>
+
+        <h3>Heading: preformatted text</h3>
+            <pre>  <!--formats text in text editor-->
+        Graduation is where we all end
+        When we say our last goodbyes
+        And move on with our lives
+        We'll keep the ones close to us
+        But those whom we never connected with
+        Will be gone forever
+        So I made this little powerpoint
+        To show what my words couldn't
+        And as a final farewell to you all
+        Even if they didn't mean much to you
+        They still meant the world to me
+        Goodbye and good luck.
+        -Atticus
+            </pre>
+        <!--this is how to make a comment-->
+        <!---->
+
+        <br>
+        <!--an attribute is usually a name value pair that modifies behavior of an element-->
+        <!--target controls which tab the new link opens (_blank, _self)-->
+        <!--title is shown when hovering over the link (tooltip)-->
+        <!--this is an absolute URL-->
+        <a href="https://www.youtube.com/watch?v=vu5Q5Fox2ng"
+        target="_blank"          
+        title="Goes to youtube"> CLICK ME
+        </a> <br>
+
+        <!--relative URL: access other html links that are next to file-->
+        <a href = "lyrics.html"
+            title="song lyrics test page">
+            song lyrics
+        </a> <br>
+
+        <a href="audiopage.html"
+            title="audio testing page">
+            testing audios
+        </a> <br>
+
+        <a href="videopage.html"
+            title = "testing videos">
+            testing videos
+        </a> <br>
+
+        <a href="wowdivs.html">testing texts</a> <br>
+
+        <a href="form.html">forms</a>
+
+        <br>
+        <hr>
+
+        <!--source attribute uses a relative file path -->
+        <img src="images/catileesa.png"
+        alt="catileesa image"
+        height="200"
+        width="200"> 
+        <!--can put links/buttons in images-->
+        <a href="https://www.reddit.com/user/atile4/"
+            target="_blank"
+            title="atile reddit">
+            <img src="images/atile4444 derp head.png"
+                alt="profile picture"
+                height="200"
+                width="200">
+        </a> <br> <hr>
+        <!--images/daeth-funi.gif-->
+        <!-- <img src="images/daeth-funi.gif"
+            alt="funny dies gif"
+            height="300"
+            width="300"> -->
+
+        <!-- formatting text -->
+        <h2>Text Format</h2>
+        <p>Playing Visual Studio Code Normal</p>
+        <p>Playing <b>Visual Studio Code</b> Bolded</p>
+        <p>Playing <i>Visual Studio Code</i> Italicized</p>
+        <p>Playing <u>Visual Studio Code</u> Underlined</p>
+        <p>Playing <del>Visual Studio Code</del> Strikethrough</p>
+        <p>Playing <big>Visual Studio Code</big> Big</p>
+        <p>Playing <small>Visual Studio Code</small> Small</p>
+        <p>Playing <sub>Visual Studio Code</sub> Subscript</p>
+        <p>Playing <sup>Visual Studio Code</sup> Superscript</p>
+        <p>Playing <tt>Visual Studio Code</tt> Monospaced</p>
+        <p>Playing <mark>Visual Studio Code</mark> Highlighted</p>
+        <hr>
+
+        <h2>Playground</h2>
+        <p><big><tt>Hello World</tt></big></p>
+        <p><mark style="background-color: aqua;"> What's good gang</mark></p>
+        <hr>
+    </body>
+
+</html>
